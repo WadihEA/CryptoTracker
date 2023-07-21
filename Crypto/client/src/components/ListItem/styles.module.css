@@ -1,0 +1,38 @@
+.coinList {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  gap: 30px;
+  margin-left: 28%;
+  width: 700px;
+}
+span {
+  display: block;
+}
+
+.coinName {
+  flex: 1;
+  font-size: 20px;
+  color: #111;
+  font-weight: 600;
+}
+.btc {
+  font-size: 18px;
+  color: #111;
+  font-weight: 600;
+}
+.usd {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+}
+.btcImg {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 5px 0 0;
+}
+.coinImage {
+  width: 50px;
+}
